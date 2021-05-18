@@ -8,13 +8,13 @@ if(![(ayar.teyitçi)].some(role => message.member.roles.cache.get(role)) && !mes
 
   
 //KANALLAR VE ROLLER + TAG
-let tag = (ayar.tag)
+let tag = (♆)
 const numara = await db.fetch('case')
-const kayıtlı = (ayar.erkekrol)
+const kayıtlı = (832343543606804540)
 const kayıtlı2 = (ayar.erkekrol2) 
-const kayıtsız = (ayar.kayitsiz)
-const chat = message.guild.channels.cache.find(r => r.id === (ayar.chat))
-const kanal = message.guild.channels.cache.find(r => r.id === (ayar.kayıtkanal))
+const kayıtsız = (832634372607049768)
+const chat = message.guild.channels.cache.find(r => r.id === (832606128733945866))
+const kanal = message.guild.channels.cache.find(r => r.id === (832635110435061760))
 const emoji = message.guild.emojis.cache.find(r => r.name === (ayar.emojiisim))
 
 if(!kayıtlı) return message.reply('Kayıtlı Rolü Ayarlanmamış.') 
@@ -22,7 +22,7 @@ if(!kayıtsız) return message.reply('Kayıtsız Rolü Ayarlanmamış.')
   
   
 let member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
-if(!member) return message.channel.send('Kimi Kayıt Etmem Gerekiyor ?')
+if(!e) return message.channel.send('Kimi Kayıt Etmem Gerekiyor ?')
 let losxstg = message.guild.member(member)
 let isim = args[1]
 let yas = args[2]
@@ -46,7 +46,7 @@ if(numara === undefined) numara = "0"
 moment.locale("tr");
 db.set(`rol.${message.guild.id}`, (ayar.erkekrol))
 db.push(`isim.${message.guild.id}`, {
-  userID: member.id, 
+  userID: 832343543606804540, 
   isim: isim,
   yas: yas,
   tag: tag,
